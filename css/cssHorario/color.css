@@ -1,0 +1,44 @@
+.basededatos{
+    text-align: center;
+    background-color: yellow;
+}
+
+.programacion{
+    text-align: center;
+    background: lawngreen;
+}
+
+.web{
+    text-align: center;
+    background-color: aqua;
+}
+
+.angles{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.segueretat{
+    text-align: center;
+    background-color: rgb(173, 58, 58);
+}
+
+.xarxa{
+    text-align: center;
+    background-color: bisque;
+}
+
+.tutoria{
+    text-align: center;
+    background-color: orange;
+}
+
+.patio{
+    text-align: center;
+    background-color: rgb(232, 232, 232);
+}
+
+.horas{
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+}
