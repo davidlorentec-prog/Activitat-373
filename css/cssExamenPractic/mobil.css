@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Poner la imagen de fondo*/
+body {
+    background-image: url("../../Examen Pràctic (Enunciat)/img/backgrounds/mobile-bg.webp");
+}
+/* */
+
+/* */
+.img{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img img {
+    width: 340px;
+    height: auto;
+}
+/* */
+
+/* Poner el color del menu de arriba*/
+header{
+    background-color: #1778a5;
+    height: 100px;
+}
+/* */
+
+/* */
+.derecha {    
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/* */
+
+header{
+    display: flex;
+    justify-content: space-between; /* Empuja el logo a la izquierda y los iconos a la derecha */
+    align-items: center;            /* Centra Todo verticalmente en medio del header */
+    height: 125px;                   /* Altura de ejemplo de tu header */
+    padding: 0 20px; 
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+    margin-top: 10px;
+}
+/* */
+
+
+
+footer{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;         /* Crea la separación arriba y abajo del texto */
+    margin-top: 40px;
+}
+
+footer p{
+    color: #1778a5;
+}

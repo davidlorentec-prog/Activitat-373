@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 0.9rem;
+    justify-content: space-between;
+}
+
+header>img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 30rem;
+    width: 100%;
+}
+
+.superPuesto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #e0623b;
+  color: white;
+  border-radius: 15px; 
+  border: none; 
+  padding: 10px 20px;  
+}
+
+main > .contenedor > .superPuesto > p {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+h1{
+    color: white;
+    display: flex;
+    text-align: center;
+
+}
+
+.imagenBackground{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover; /* Ajusta el contenido al epstacio que hay */
+    display: block;
+}
+
+.mainImg{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+main>h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+main{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.mainImg>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.mainImg>div>img{
+    height: 6rem;
+}
+
+.footerImg{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footerImg>a>img{
+
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.25rem;
+    border-style: solid;
+    border-color: grey;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 0rem 2rem 0rem;
+}
